@@ -235,104 +235,179 @@ body
 	font-size: 80px;
 	
 }
-.napis1
+@media (max-width: 1024px)
 {
-	display: block;
-	margin: auto;
-	padding: 15px;
-	padding-top: 730px;
+	.back1
+	{
+		background-image: url(foto/schody.jpg);
+		height: 400px;
+	}
+	.back2
+	{
+		background-image: url(foto/office.jpg);
+		height: 400px;
+	}
+	.back3
+	{
+		opacity: 0.95;
+		background-image: url(foto/foto.jpg);
+		height: 400px;
+	}
+	.back4
+	{
+		opacity: 0.95;
+		background-image: url(foto/ksiazka.jpg);
+		height: 400px;
+	}
+	.back5
+	{
+		opacity: 0.95;
+		background-image: url(foto/puzle.jpg);
+		height: 400px;
+	}
+	.back6
+	{
+		opacity: 0.95;
+		background-image: url(foto/drewno.jpg);
+		height: 400px;
+	}
+	.napis1
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 270px;
+	}
+	.napis2
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 270px;
+	}
+	.napis3
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 270px;
+	}
+	.napis4
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 270px;
+	}
+	.napis5
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 270px;
+	}
 }
-.napis2
+@media (min-width: 1024px)
 {
-	display: block;
-	margin: auto;
-	padding: 15px;
-	padding-top: 630px;
-}
-.napis3
-{
-	display: block;
-	margin: auto;
-	padding: 15px;
-	padding-top: 630px;
-}
-.napis4
-{
-	display: block;
-	margin: auto;
-	padding: 15px;
-	padding-top: 630px;
-}
-.napis5
-{
-	display: block;
-	margin: auto;
-	padding: 15px;
-	padding-top: 630px;
-}
-.back1
-{
-	background-image: url(foto/schody.jpg);
-	min-height: 900px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
-}
-.back2
-{
-	opacity: 0.95;
-	background-image: url(foto/office.jpg);
-	min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
-}
-.back3
-{
-	opacity: 0.95;
-	background-image: url(foto/foto.jpg);
-	min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
-}
-.back4
-{
-	opacity: 0.95;
-	background-image: url(foto/ksiazka.jpg);
-	min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.back5
-{
-	opacity: 0.95;
-	background-image: url(foto/puzle.jpg);
-	min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
-}
-.back6
-{
-	opacity: 0.95;
-	background-image: url(foto/drewno.jpg);
-	min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
+	.back1
+	{
+		background-image: url(foto/schody.jpg);
+		min-height: 900px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.back2
+	{
+		opacity: 0.95;
+		background-image: url(foto/office.jpg);
+		min-height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.back3
+	{
+		opacity: 0.95;
+		background-image: url(foto/foto.jpg);
+		min-height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.back4
+	{
+		opacity: 0.95;
+		background-image: url(foto/ksiazka.jpg);
+		min-height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.back5
+	{
+		opacity: 0.95;
+		background-image: url(foto/puzle.jpg);
+		min-height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.back6
+	{
+		opacity: 0.95;
+		background-image: url(foto/drewno.jpg);
+		min-height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.napis1
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 750px;
+	}
+	.napis2
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 650px;
+	}
+	.napis3
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 650px;
+	}
+	.napis4
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 650px;
+	}
+	.napis5
+	{
+		display: block;
+		margin: auto;
+		padding: 15px;
+		padding-top: 650px;
+	}
 }
 .omnie
 {

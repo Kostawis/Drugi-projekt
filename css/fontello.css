@@ -55,6 +55,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-ok:before { content: '\e800';  } /* '' */
+.icon-ok:before { content: '\e800';  font-size: 18px; color: green;} /* '' */
 .icon-x:before { content: '\e801'; font-size: 40px; color: white; } /* '' */
+.kafelekoferta .icon-x:before { content: '\e801'; font-size: 22px; color: red; } /* '' */
+.kafelekofertaon .icon-x:before { content: '\e801'; font-size: 22px; color: red; } /* '' */
 .icon-menu:before { content: '\f0c9';  font-size: 40px; color: white;} /* '' */

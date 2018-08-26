@@ -260,41 +260,47 @@ body
 }
 }
 
-@media (max-width: 1024px)
+@media (max-width: 1020px)
 {
 	.back1
 	{
 		background-image: url(foto/schody.jpg);
 		height: 400px;
+		background-size: 100% 100%	;
 	}
 	.back2
 	{
 		background-image: url(foto/office.jpg);
 		height: 400px;
+		background-size: 100% 100%;
 	}
 	.back3
 	{
 		opacity: 0.95;
 		background-image: url(foto/foto.jpg);
 		height: 400px;
+		background-size: 100% 100%;
 	}
 	.back4
 	{
 		opacity: 0.95;
 		background-image: url(foto/ksiazka.jpg);
 		height: 400px;
+		background-size: 100% 100%;
 	}
 	.back5
 	{
 		opacity: 0.95;
 		background-image: url(foto/puzle.jpg);
 		height: 400px;
+		background-size: 100% 100%;
 	}
 	.back6
 	{
 		opacity: 0.95;
 		background-image: url(foto/drewno.jpg);
 		height: 400px;
+		background-size: 100% 100%;
 	}
 	.napis1
 	{
@@ -332,7 +338,7 @@ body
 		padding-top: 270px;
 	}
 }
-@media (min-width: 1024px)
+@media (min-width: 1019px)
 {
 	.back1
 	{

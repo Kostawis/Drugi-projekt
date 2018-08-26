@@ -474,8 +474,29 @@ body
 }
 .galeria
 {
-	height: 600px;
 	background-color: grey;
+}
+.row * {
+    box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .oferta
 {

@@ -486,12 +486,12 @@ body
 .column {
     float: left;
     width: 33.3%;
-    padding: 0.3%;
+    padding: 0.5%;
 }
 
 .column img {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .row:after {
     content: "";

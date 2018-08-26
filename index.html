@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
 </head>
 
-<body>
+<body onload="typeWriter()">
 	
 	
 	<div id="overof" onclick="off()">
@@ -95,7 +95,7 @@
 	
 	<div class="top">		
 		<div class="imie">
-			<h1>Jakub <br/>Kolewczyński</h1>		
+			<h1 id="type"></h1>		
 		</div>
 					
 		
@@ -160,11 +160,11 @@
 				<div class="row">
 					<div class="col-12" class="img-fluid">
 						
-						<img src="foto/profilowe.jpg" border="20px" hspace="30" width="25%" align="right"/>
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod felis ac augue varius, ut tristique enim rhoncus. Vivamus gravida lectus ut magna fermentum, mattis maximus arcu vehicula. Aliquam mattis tincidunt magna. Curabitur eu est id enim euismod gravida sed nec enim. Pellentesque ullamcorper mi non risus ornare sagittis. Morbi vel felis nisi. Integer commodo turpis id risus porttitor, vel dictum turpis cursus. Nulla facilisi.<br/>
-										Ut id cursus lectus. Praesent dignissim tristique libero, ac fermentum orci euismod dapibus. Proin at varius nibh, et ornare urna. Phasellus ornare aliquet commodo. Phasellus posuere porta cursus. Aliquam condimentum arcu in dui porta gravida. Aenean sit amet condimentum leo. Mauris eget elit tellus. Maecenas lacinia interdum elit, at commodo lacus mollis eget. Cras venenatis hendrerit justo, id dictum tellus faucibus a. Morbi iaculis odio a tellus pharetra, ac accumsan risus congue. Fusce tincidunt odio vitae erat tempor, quis convallis dolor tempus. Sed in massa bibendum, interdum elit non, sagittis orci.<br/>
-										Suspendisse enim lectus, laoreet quis neque a, mollis rutrum libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque consectetur dapibus ligula nec volutpat. Donec vulputate est neque, quis venenatis lectus faucibus sit amet. Curabitur eget lacus mauris. Sed semper pharetra dolor, id posuere urna laoreet eget. Cras eget tincidunt mauris. Suspendisse potenti. Vestibulum quis risus eget erat finibus laoreet. Donec in leo eget risus ornare sagittis. Donec luctus nisi in lacinia ullamcorper. Sed congue tellus et lacus commodo tristique. Ut eget risus sed urna sollicitudin tincidunt nec eget felis. Curabitur blandit nec ligula a convallis. Phasellus aliquam justo in ex interdum viverra. Nulla facilisi.<br/>
-										Pellentesque vitae leo at diam finibus feugiat quis in ligula. Phasellus luctus posuere posuere. Etiam bibendum libero eros, ac fringilla enim ornare vel. Nam et volutpat massa. Pellentesque ornare neque at quam cursus, ac convallis mi suscipit. Curabitur non lacus congue, mollis magna a, volutpat orci. Ut condimentum interdum vehicula. Fusce hendrerit turpis arcu, nec molestie velit tincidunt sit amet.</span>
+						<img src="foto/profilowe.jpg" border="20px" hspace="30" align="right"/>
+						<span>
+							Ut id cursus lectus. Praesent dignissim tristique libero, ac fermentum orci euismod dapibus. Proin at varius nibh, et ornare urna. Phasellus ornare aliquet commodo. Phasellus posuere porta cursus. Aliquam condimentum arcu in dui porta gravida. Aenean sit amet condimentum leo. Mauris eget elit tellus. Maecenas lacinia interdum elit, at commodo lacus mollis eget. Cras venenatis hendrerit justo, id dictum tellus faucibus a. Morbi iaculis odio a tellus pharetra, ac accumsan risus congue. Fusce tincidunt odio vitae erat tempor, quis convallis dolor tempus. Sed in massa bibendum, interdum elit non, sagittis orci. 
+							Ut id cursus lectus. Praesent dignissim tristique libero, ac fermentum orci euismod dapibus. Proin at varius nibh, et ornare urna. Phasellus ornare aliquet commodo. Phasellus posuere porta cursus. Aliquam condimentum arcu in dui porta gravida. Aenean sit amet condimentum leo. Mauris eget elit tellus. Maecenas lacinia interdum elit, at commodo lacus mollis eget. Cras venenatis hendrerit justo, id dictum tellus faucibus a. Morbi iaculis odio a tellus pharetra, ac accumsan risus congue. Fusce tincidunt odio vitae erat tempor, quis convallis dolor tempus. Sed in massa bibendum, interdum elit non, sagittis orci.
+						</span>
 						
 					</div>
 					
@@ -377,6 +377,19 @@
 		function off2() {
 			document.getElementById("overof2").style.display = "none";
 		}
+	</script>
+	<script>
+	var i = 0;
+	var txt = 'Jakub Kolewczyński';
+	var speed = 70;
+
+	function typeWriter() {
+	  if (i < txt.length) {
+		document.getElementById("type").innerHTML += txt.charAt(i);
+		i++;
+		setTimeout(typeWriter, speed);
+	  }
+	}
 	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

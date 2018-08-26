@@ -2,8 +2,12 @@ body
 {
 	margin: 0px !important;
 }
-@media (min-width: 1200px)
+@media (min-width: 1202px)
 {
+	img
+{
+	width: 292.750px;
+}
 	.top1
 	{
 		display: none;
@@ -88,6 +92,10 @@ body
 }
 @media (max-width: 1201px)
 {
+	img
+{
+	width: 25%;
+}
 	.top
 	{
 		display: none;
@@ -112,6 +120,7 @@ body
 	}
 	.navOpen
 	{
+		background-color: rgba(0, 0, 0, 0.6);
 		position: fixed;
 		right: 3%;
 		top: 60px;
@@ -119,6 +128,12 @@ body
 		cursor: pointer;
 		color: white;
 		z-index: 50;
+		width: 60px;
+		height: 60px;
+		display: block;
+		text-align: center;
+		line-height: 55px;
+		border-radius: 10px;
 	}
 	.navOpen:hover
 	{
@@ -375,7 +390,7 @@ body
 	{
 		opacity: 0.95;
 		background-image: url(foto/drewno.jpg);
-		min-height: 800px;
+		min-height: 200px;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;

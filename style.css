@@ -242,13 +242,13 @@ body
 		padding: 5px;
 	}
 	.overlay
-{
-	width: 100%;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	font-size: 12vw;	
-}
+	{
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		color: white;
+		font-size: 12vw;	
+	}
 }
 @media (min-width: 768px)
 {
@@ -263,14 +263,14 @@ body
 		padding: 20px;
 	}
 	.overlay
-{
-	width: 100%;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	font-size: 80px;
-	
-}
+	{
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		color: white;
+		font-size: 80px;
+		
+	}
 }
 
 @media (max-width: 1020px)

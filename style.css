@@ -1,6 +1,6 @@
 body::-webkit-scrollbar
 {
-	width: 8px;
+	width: 10px;
 }
 body::-webkit-scrollbar-track
 {
@@ -19,9 +19,9 @@ body
 @media (min-width: 1202px)
 {
 	img
-{
-	width: 292.750px;
-}
+	{
+		width: 292.750px;
+	}
 	.top1
 	{
 		display: none;
@@ -74,7 +74,7 @@ body
 	.navbut:hover
 	{
 		cursor: pointer;
-		background-color: rgb(255, 255, 255, 0.1);
+		background-color: rgba(255, 255, 255, 0.1);
 	}
 	.navbut a
 	{
@@ -577,7 +577,7 @@ body
 	border: none;
 	padding: 4px 40px 4px 40px;
 	cursor: pointer;
-	border: solid 2px #4ee800;
+	transition: background-color 0.2s ease-in-out;
 }
 .price>li>button:hover
 {
